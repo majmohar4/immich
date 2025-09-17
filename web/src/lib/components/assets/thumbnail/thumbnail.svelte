@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { resolve } from '$app/paths';
   import { ProjectionType } from '$lib/constants';
   import { locale, playVideoThumbnailOnHover } from '$lib/stores/preferences.store';
   import { getAssetPlaybackUrl, getAssetThumbnailUrl } from '$lib/utils';
@@ -302,7 +303,7 @@
         <a
           class="absolute w-full top-0 bottom-0"
           style:cursor="unset"
-          href={currentUrlReplaceAssetId(asset.id)}
+          href={resolve(currentUrlReplaceAssetId(asset.id))}
           onclick={(evt) => evt.preventDefault()}
           tabindex={-1}
           aria-label="Thumbnail URL"
