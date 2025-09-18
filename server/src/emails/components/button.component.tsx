@@ -1,11 +1,21 @@
 import React from 'react';
-
 import { Button, ButtonProps } from '@react-email/components';
 
 export const ImmichButton = ({ children, ...props }: ButtonProps) => (
   <Button
     {...props}
-    className="py-3 px-8 border bg-immich-primary rounded-full no-underline hover:no-underline text-white hover:text-gray-50 font-bold uppercase"
+    style={{
+      backgroundColor: '#4f46e5',
+      color: '#ffffff',
+      fontSize: '16px',
+      fontWeight: 'bold',
+      padding: '12px 24px',
+      borderRadius: '9999px',
+      textDecoration: 'none',
+      textTransform: 'uppercase',
+      display: 'inline-block',
+      lineHeight: '1.2',
+    }}
   >
     {children}
   </Button>
