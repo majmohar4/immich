@@ -387,8 +387,6 @@
   "admin_password": "Beheerder wachtwoord",
   "administration": "Beheer",
   "advanced": "Geavanceerd",
-  "advanced_settings_beta_timeline_subtitle": "Probeer de nieuwe app-ervaring",
-  "advanced_settings_beta_timeline_title": "Beta tijdlijn",
   "advanced_settings_enable_alternate_media_filter_subtitle": "Gebruik deze optie om media te filteren tijdens de synchronisatie op basis van alternatieve criteria. Gebruik dit enkel als de app problemen heeft met het detecteren van albums.",
   "advanced_settings_enable_alternate_media_filter_title": "[EXPERIMENTEEL] Gebruik een alternatieve album synchronisatie filter",
   "advanced_settings_log_level_title": "Logniveau: {level}",

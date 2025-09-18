@@ -387,8 +387,6 @@
   "admin_password": "Admin Jelszó",
   "administration": "Adminisztráció",
   "advanced": "Haladó",
-  "advanced_settings_beta_timeline_subtitle": "Próbáld ki az új alkalmazást",
-  "advanced_settings_beta_timeline_title": "Béta Idővonal",
   "advanced_settings_enable_alternate_media_filter_subtitle": "Ezzel a beállítással a szinkronizálás során alternatív kritériumok alapján szűrheted a fájlokat. Csak akkor próbáld ki, ha problémáid vannak azzal, hogy az alkalmazás nem ismeri fel az összes albumot.",
   "advanced_settings_enable_alternate_media_filter_title": "[KÍSÉRLETI] Alternatív eszköz album szinkronizálási szűrő használata",
   "advanced_settings_log_level_title": "Naplózás szintje: {level}",
